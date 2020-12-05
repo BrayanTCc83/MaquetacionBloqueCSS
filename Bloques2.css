@@ -1,0 +1,56 @@
+@import "variables.css";
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--main-color);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+h1{
+    width: 50%;
+    margin: 10px;
+    float: left;
+    color: var(--white-color);
+}
+a{
+    float: left;
+}
+main{
+    width: 100vw;
+    min-height: 90vh;
+    overflow: auto;
+    float: left;
+    z-index: 1;
+}
+section{
+    width: 60%;
+    float: left;
+    min-height: 10vh;
+    border-radius: 10px;
+    border: 2px solid var(--second-color);
+    margin: 10px 8%;
+    overflow: auto;
+}
+p{
+    margin: 10px;
+    text-align: justify;
+}
+#id1,#id2{
+    max-height: 40vh;
+}
+#id2>img{
+    margin: 10px;
+    float: left;
+    width: 30%;
+}
+#id3{
+    border: none;
+    margin: 0;
+    width: 20%;
+    height: 90vh;
+    position: relative;
+    border-radius: 0;
+    background-color: var(--main-color);
+}

@@ -1,0 +1,57 @@
+@import "./variables.css";
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--main-color);
+    float: left;
+}
+
+main{
+    height: 85vh;
+    width: 60vw;
+    float: left;
+}
+
+#seccion1,#seccion3{
+    float: left;
+    width: calc(20% - 2px);
+    height: 85vh;
+    overflow: auto;
+}
+
+#seccion1{
+    border-right: var(--border);
+}
+#seccion3{
+    border-left: var(--border);
+}
+    
+footer{
+    float: left;
+    width: 100vw;
+    height: 5vh;
+    background-color: var(--main-color);
+}
+
+
+h1{
+    display: block;
+    float: left;
+    margin: 10px;
+    width: 50vw;
+    color: var(--white-color);
+}
+
+p,address{
+    margin: 10px;
+    text-align: justify;
+    float: left;
+}
+
+img{
+    display: block;
+    float: left;
+    margin: 5%;
+    width: 90%;
+}
